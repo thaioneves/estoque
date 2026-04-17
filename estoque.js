@@ -5,7 +5,7 @@ let quantidade;
 quantidade=prompt('Informe a quantidade');
 
 if (quantidade<0 || produto=='') {
-    alert ('erro')
+     alert ('erro')
 } else {
     if (quantidade<0) {
         alert("produto esgotado");
@@ -24,6 +24,6 @@ if (quantidade<0 || produto=='') {
             }
         }
     }
-   
+  
 }
 
